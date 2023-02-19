@@ -1,0 +1,43 @@
+html {
+    text-align: center;
+    font-family: Arial;
+    user-select: none; /* Standard syntax */
+}
+
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #9b9b9b;
+    background-color: white;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: crosshair;
+}
+
+.cellCheck {
+    background-color: #ababab;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+#restartButton {
+    margin: 10px 10px 10px 10px;
+    padding: 3px 3px 3px 3px;
+    border: #9b9b9b solid 1px;
+}
+
+.bomb {
+    background-color: #f00;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: #bfbfbf solid 10px;
+}
